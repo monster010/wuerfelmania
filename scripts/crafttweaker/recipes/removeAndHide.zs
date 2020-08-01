@@ -8,7 +8,7 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
 static removeAndHideIngredients as IIngredient[] = [
-	
+	<akashictome:tome>
 ];
 
 function init() {

@@ -9,7 +9,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
-import scripts.crafttweaker.classes.resources.resource.Resource;
+import scripts.crafttweaker.class.resources.resource.Resource;
 import scripts.crafttweaker.utils;
 
 // Pairs the resource name with the liquid for the resource

@@ -111,14 +111,6 @@ zenClass Unifier {
 		appliedEnergistics.removeInscriber(item);
 
 		// ==================================
-		// Astral Sorcery
-		astralSorcery.removeGrindstone(item);
-
-		// ==================================
-		// Horse Power
-		horsePower.removeGrindstone(item);
-
-		// ==================================
 		// Mekanism
 		// mekanism.removeChemicalCrystallizer(item); // TODO: Add gas support to Resource before enabling crystallizer support
 		mekanism.removeChemicalInjection(item);

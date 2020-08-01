@@ -198,10 +198,6 @@ zenClass Resource {
 			mekanism.addSmelter(this.parts.dust, this.parts.ingot);
 			furnace.addRecipe(this.parts.ingot, this.parts.dust);
 		}
-
-		if (hasLiquid()) {
-			nuclearCraft.addMelter(this.parts.dust, this.liquid * 144);
-		}
 	}
 
 	function handleIngot() {
@@ -214,7 +210,6 @@ zenClass Resource {
 		}
 
 		if (hasPart("dust")) {
-			astralSorcery.addGrindstone(this.parts.ingot, this.parts.dust);
 			mekanism.addCrusher(this.parts.ingot, this.parts.dust);
 		}
 
@@ -224,12 +219,6 @@ zenClass Resource {
 
 		if (hasPart("plate")) {
 			mekanism.addEnrichment(this.parts.ingot, this.parts.plate);
-			practicalLogistics.addHammer(this.parts.plate, this.parts.ingot * 2);
-			nuclearCraft.addPressurizer(this.parts.plate, this.parts.ingot);
-		}
-
-		if (hasLiquid()) {
-			nuclearCraft.addMelter(this.parts.ingot, this.liquid * 144);
 		}
 
 		if (hasPart("gear")) {
@@ -248,11 +237,9 @@ zenClass Resource {
 
 		if (hasPart("ingot")) {
 			recipes.addShaped(this.parts.ingot, craftingUtils.create3By3(this.parts.nugget));
-			cyclic.addPackager(this.parts.ingot, this.parts.nugget * 9);
 		}
 
 		if (hasLiquid()) {
-			nuclearCraft.addMelter(this.parts.nugget, this.liquid * 16);
 			tinkers.addMelting(this.liquid * 16, this.parts.nugget);
 		}
 	}
@@ -263,7 +250,6 @@ zenClass Resource {
 		}
 
 		if (hasLiquid()) {
-			nuclearCraft.addMelter(this.parts.plate, this.liquid * 144);
 			tinkers.addMelting(this.liquid * 144, this.parts.plate);
 		}
 	}
@@ -271,10 +257,6 @@ zenClass Resource {
 	function handleBlock() {
 		if (!hasPart("block")) {
 			return null;
-		}
-
-		if (hasLiquid()) {
-			nuclearCraft.addMelter(this.parts.block, this.liquid * 1296);
 		}
 
 		if (hasPart("ingot")) {
@@ -303,9 +285,7 @@ zenClass Resource {
 
 		for ore in oreOreDict.items {
 			if (hasPart("dust")) {
-				astralSorcery.addGrindstone(ore, this.parts.dust, 0.85);
 				mekanism.addEnrichment(ore, this.parts.dust * 2);
-				horsePower.addGrindstone(this.parts.dust, ore, this.parts.dust, 85);
 			}
 
 			if (hasPart("clump")) {
@@ -354,7 +334,6 @@ zenClass Resource {
 		}
 
 		if (hasLiquid()) {
-			nuclearCraft.addMelter(this.parts.gear, this.liquid * 576);
 			tinkers.addMelting(this.liquid * 576, this.parts.gear);
 		}
 	}
@@ -362,10 +341,6 @@ zenClass Resource {
 	function handleLiquid() {
 		if (!hasLiquid()) {
 			return null;
-		}
-
-		if (hasPart("ingot")) {
-			nuclearCraft.addIngotFormer(this.liquid * 144, this.parts.ingot);
 		}
 	}
 
@@ -376,9 +351,7 @@ zenClass Resource {
 	function createConversionRecipes() {
 		// Handle the Ingot -> Dust conversion.
 		if (hasPart("ingot") & hasPart("dust")) {
-			astralSorcery.addGrindstone(this.parts.ingot, this.parts.dust);
 			mekanism.addCrusher(this.parts.ingot, this.parts.dust);
-			nuclearCraft.addManufactory(this.parts.ingot, this.parts.dust);
 		}
 	}
 }

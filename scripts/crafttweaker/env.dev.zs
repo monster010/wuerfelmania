@@ -5,7 +5,7 @@
 */
 
 // This should be changed on release.
-global isDevelopment as bool = false;
+global isDevelopment as bool = true;
 
 // Enable container output to console
 if (isDevelopment) {
