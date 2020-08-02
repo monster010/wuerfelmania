@@ -1,7 +1,11 @@
 /*
-    SkyFactory 4 Mekanism Recipe Script
+    Würfelmania Mekanism Recipe Script
 
     This script handles the recipes for Mekanism.
+
+    Note: These scripts are created and for the usage in SevTech: Ages and other
+    modpacks curated by DarkPacks. You can use these scripts for reference and for
+    learning but not for copying and pasting and claiming as your own.
 */
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;

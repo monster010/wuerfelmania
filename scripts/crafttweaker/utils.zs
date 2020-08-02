@@ -4,6 +4,7 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.recipes.IRecipeFunction;
 
 function capitalize(str as string) as string {
 	return str.substring(0, 1).toUpperCase() + str.substring(1);
@@ -85,3 +86,23 @@ function getTinkersCast(resourcePartName as string) as IItemStack {
 function getResourcePartOreDict(partName as string, resourceName as string) as IOreDictEntry {
 	return oreDict.get(partName ~ capitalize(resourceName));
 }
+
+/*
+	Function used in the recipe creation for Iron BackPacks.
+*/
+static ironbackpacksRecipeFunc as IRecipeFunction = function(out, ins, cInfo) {
+	var currentTag = ins.bag.tag;
+
+	var packInfoData as IData = {
+		spec: out.tag.packInfo.spec,
+		type: out.tag.packInfo.type
+	};
+
+	var mergeData as IData = {
+		packInfo: currentTag.packInfo.update(packInfoData)
+	};
+
+	var newTag = currentTag.update(mergeData);
+
+	return out.withTag(newTag);
+};

@@ -1,7 +1,7 @@
 /*
-    Würfelmania Minecraft Recipe Script
+    Würfelmania Iron Backpacks Recipe Script
 
-    This script handles the recipes for Minecraft.
+    This script handles the recipes for Iron Backpacks.
 
     Note: These scripts are created and for the usage in SevTech: Ages and other
     modpacks curated by DarkPacks. You can use these scripts for reference and for
@@ -12,13 +12,12 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.Utils;
 
-import scripts.crafttweaker.craftingUtils;
+import scripts.crafttweaker.utils.ironbackpacksRecipeFunc;
 
 /*
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -37,7 +36,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

@@ -1,7 +1,7 @@
 /*
-    Würfelmania Minecraft Recipe Script
+    Würfelmania Chisel & Bits Recipe Script
 
-    This script handles the recipes for Minecraft.
+    This script handles the recipes for Chisel & Bits.
 
     Note: These scripts are created and for the usage in SevTech: Ages and other
     modpacks curated by DarkPacks. You can use these scripts for reference and for
@@ -18,7 +18,6 @@ import scripts.crafttweaker.craftingUtils;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -37,7 +36,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

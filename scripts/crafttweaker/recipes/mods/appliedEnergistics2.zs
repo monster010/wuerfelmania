@@ -1,7 +1,11 @@
 /*
-    SkyFactory 4 Applied Energistics 2 Recipe Script
+	Würfelmania Applied Energistics 2 Recipe Script
 
-    This script handles the recipes for Applied Energistics 2.
+	This script handles the recipes for Applied Energistics 2.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
 */
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -40,6 +44,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
+
 ];
 
 function init() {

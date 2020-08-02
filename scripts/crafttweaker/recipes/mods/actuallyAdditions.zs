@@ -1,7 +1,7 @@
 /*
-    Würfelmania Minecraft Recipe Script
+    Würfelmania Actually Additions Recipe Script
 
-    This script handles the recipes for Minecraft.
+    This script handles the recipes for Actually Additions.
 
     Note: These scripts are created and for the usage in SevTech: Ages and other
     modpacks curated by DarkPacks. You can use these scripts for reference and for
@@ -49,6 +49,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 static removeRecipes as IItemStack[] = [
 
 ];
+
 
 function init() {
 	// Un-named recipes

@@ -1,7 +1,5 @@
 import mods.appliedenergistics2.Inscriber;
 
-// Inscriber.removeRecipe(IItemStack output);
+function init() {
 
-
-
-// Replace Calc press in inscriber
+}
