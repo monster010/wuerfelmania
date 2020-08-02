@@ -1,3 +1,6 @@
 {
-  "materialMappings": {}
+  "materialMappings": {
+    "reinforced_obsidian_molten": 1,
+    "osmium_molten": 0
+  }
 }
