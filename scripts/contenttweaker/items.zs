@@ -1,7 +1,7 @@
 #loader contenttweaker
 
 /*
-	SkyFactory 4 ContentTweaker Items Script.
+	Würfelmania ContentTweaker Items Script.
 */
 import mods.contenttweaker.Item;
 import mods.contenttweaker.ResourceLocation;
