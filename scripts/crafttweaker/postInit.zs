@@ -39,6 +39,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.chisel.init();
 	scripts.crafttweaker.recipes.mods.chiselsAndBits.init();
 	scripts.crafttweaker.recipes.mods.darkutils.init();
+	scripts.crafttweaker.recipes.mods.enderIO.init();
 	scripts.crafttweaker.recipes.mods.enderUtilities.init();
 	scripts.crafttweaker.recipes.mods.extraCells.init();
 	scripts.crafttweaker.recipes.mods.huntingdim.init();
@@ -69,6 +70,7 @@ function initEvents() {
 function initIntegration() {
 	scripts.crafttweaker.modIntegrations.actuallyAdditions.init();
 	scripts.crafttweaker.modIntegrations.appliedEnergistics2.init();
+	scripts.crafttweaker.modIntegrations.enderIO.init();
 	scripts.crafttweaker.modIntegrations.industrialForegoing.init();
 	scripts.crafttweaker.modIntegrations.mekanism.init();
 	scripts.crafttweaker.modIntegrations.tinkers.init();
