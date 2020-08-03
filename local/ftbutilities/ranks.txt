@@ -1,0 +1,29 @@
+@Date:   03.08.2020
+@Email:  info@monster010.de
+@Filename: ranks.txt
+@Last modified time: 03.08.2020
+@Copyright: Copyright (c) 2019 monster010.de
+
+
+
+// For more info visit https://faq.ftb.world/books/ftb-utilities/page/ranks
+
+[player] // Make this the default rank for players
+power: 1
+default_player_rank: true
+ftbutilities.claims.block.edit.gravestone.gravestone: true // Allow all players to break gravestones (this is already the default in mod, so you don't actually need to add it)
+command.ftbutilties.home: false // Deny players from using homes
+command.stop: true // Allow players to use vanilla /stop command
+ftbutilities.claims.max_chunks: 30 // Set max claimable chunks to 30
+
+[vip]
+power: 10
+ftbutilities.claims.max_chunks: 80 // Set max claimable chunks to 80, overrides player
+ftbutilities.chunkloader.max_chunks: 40 // Set max loadable chunks to 80
+ftbutilities.chat.name_format: "<VIP &l{name}&r>" // Change name to bold letters and will have VIP in front of the name
+
+[admin] // Make this the default rank for OPs
+power: 1000
+default_op_rank: true
+command: true // Give admins all commands
+ftbutilities.chat.name_format: "<&2{name}&r>" // Name color will be dark green

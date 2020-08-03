@@ -1,0 +1,14 @@
+@Date:   03.08.2020
+@Email:  info@monster010.de
+@Filename: players.txt
+@Last modified time: 03.08.2020
+@Copyright: Copyright (c) 2019 monster010.de
+
+
+
+// For more info visit https://faq.ftb.world/books/ftb-utilities/page/ranks
+
+// FakeForgePlayer
+[069be1413c1b45c3b3b160d3f9fcd236]
+parent: vip
+example.permission_with_value: 150
