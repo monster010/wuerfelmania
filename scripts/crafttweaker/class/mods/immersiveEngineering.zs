@@ -1,7 +1,7 @@
 #priority 3400
 
 /*
-	SevTech: Ages Immersive Engineering Script
+	Würfelmania Immersive Engineering Script
 
 	This script is a zenClass to allow easy interation with Immersive Engineering.
 

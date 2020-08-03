@@ -1,5 +1,5 @@
 /*
-	SevTech: Ages Block Player Logged In Event Script
+	Würfelmania Block Player Logged In Event Script
 
 	This script adds a chat message to user to remind them that they are using
 	a beta build of the modpack.

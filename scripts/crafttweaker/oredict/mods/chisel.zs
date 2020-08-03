@@ -1,7 +1,7 @@
 #priority 2600
 
 /*
-	SevTech: Ages OreDict Mod Script.
+	Würfelmania OreDict Mod Script.
 
 	Note: These scripts are created and for the usage in SevTech: Ages and other
 	modpacks curated by DarkPacks. You can use these scripts for reference and for

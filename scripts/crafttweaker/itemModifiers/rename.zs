@@ -1,5 +1,5 @@
 /*
-	SkyFactory 4 Item Renaming Script
+	Würfelmania Item Renaming Script
 
 	This script allows for the renaming of an item.
 */

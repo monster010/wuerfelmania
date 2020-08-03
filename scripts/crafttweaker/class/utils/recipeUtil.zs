@@ -1,7 +1,7 @@
 #priority 3400
 
 /*
-	SkyFactory 4 Recipe Util Script
+	Würfelmania Recipe Util Script
 
 	This script is a zenClass "Util/Wrapper" for recipe adding. Which gives us an easier way
 	to add recipes to the game in a clean script layout using Maps/Arrays.

@@ -1,8 +1,8 @@
 #priority 3400
 
 /*
-	SevTech: Ages Tinkers Construct Script
-	
+	Würfelmania Tinkers Construct Script
+
 	This script is a zenClass to allow easy interation with Tinkers Construct.
 
 	Note: These scripts are created and for the usage in SevTech: Ages and other

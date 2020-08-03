@@ -1,7 +1,11 @@
 /*
-	SkyFactory 4 Mekanism Integration Script
+	Würfelmania Mekanism Integration Script
 
-	This script utilizes the Mekanism integration to add/remove/modify recipes.
+	This script handles custom integration control to a mod.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
 */
 function init() {
 	// ==================================

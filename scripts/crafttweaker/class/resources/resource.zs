@@ -1,7 +1,7 @@
 #priority 3000
 
 /*
-	SkyFactory 4 Resource Class Script
+	Würfelmania Resource Class Script
 
 	This script is a zenClass to store information and methods for a resource.
 

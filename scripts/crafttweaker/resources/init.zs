@@ -1,7 +1,7 @@
 #priority 2300
 
 /*
-	SkyFactory 4 Resources Initializer.
+	Würfelmania Resources Initializer.
 
 	This script initializes all resources scripts.
 */

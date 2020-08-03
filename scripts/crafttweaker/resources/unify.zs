@@ -1,7 +1,7 @@
 #priority 2348
 
 /*
-	SkyFactory 4 OreDict Unification Script.
+	Würfelmania OreDict Unification Script.
 */
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;

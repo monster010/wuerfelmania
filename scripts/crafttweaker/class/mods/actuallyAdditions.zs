@@ -1,7 +1,7 @@
 #priority 3400
 
 /*
-	SevTech: Ages Actually Additions Script
+	Würfelmania Actually Additions Script
 
 	This script is a zenClass to allow easy interation with Actually Additions.
 

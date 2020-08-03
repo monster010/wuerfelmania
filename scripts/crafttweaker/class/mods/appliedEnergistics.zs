@@ -1,7 +1,7 @@
 #priority 3400
 
 /*
-	SevTech: Ages Applied Energistics Script
+	Würfelmania Applied Energistics Script
 
 	This script is a zenClass to allow easy interation with Applied Energistics.
 

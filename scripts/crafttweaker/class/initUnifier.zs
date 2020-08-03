@@ -1,7 +1,7 @@
 #priority 2849
 
 /*
-	SkyFactory 4 Unifier Class Creation Script.
+	Würfelmania Unifier Class Creation Script.
 
 	This script creates and sets the globals for the class we use to interact with mods
 	and/or MM machines.

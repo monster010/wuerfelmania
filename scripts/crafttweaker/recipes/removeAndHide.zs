@@ -1,5 +1,5 @@
 /*
-	SkyFactory 4 Remove and Hide Script
+	Würfelmania Remove and Hide Script
 
 	This script handles the removal and hiding of IIngredients.
 */

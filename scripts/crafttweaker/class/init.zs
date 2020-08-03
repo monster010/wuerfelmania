@@ -1,7 +1,7 @@
 #priority 3100
 
 /*
-	SkyFactory 4 Class Creation Script.
+	Würfelmania Class Creation Script.
 
 	This script creates and sets the globals for the class we use to interact with mods.
 */

@@ -1,7 +1,13 @@
 #loader contenttweaker
 
 /*
-	SkyFactory 4 ContentTweaker Large Scale Script.
+	Würfelmania ContentTweaker Large Scale Script.
+
+	This script is intended for large scale registration.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
 */
 import mods.contenttweaker.Material;
 import mods.contenttweaker.MaterialPartData;

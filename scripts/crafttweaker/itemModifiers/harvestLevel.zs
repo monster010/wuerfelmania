@@ -1,5 +1,5 @@
 /*
-	SkyFactory 4 Harvest Level Modification Script
+	Würfelmania Harvest Level Modification Script
 
 	This script allows for the modification of an ItemStack's Harvest Level.
 */

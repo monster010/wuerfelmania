@@ -1,7 +1,7 @@
 #priority 2850
 
 /*
-	SkyFactory 4 Unifier Class Script
+	Würfelmania Unifier Class Script
 */
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;

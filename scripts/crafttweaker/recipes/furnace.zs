@@ -1,5 +1,5 @@
 /*
-	SkyFactory 4 Furnace Recipes Script.
+	Würfelmania Furnace Recipes Script.
 
 	This script is used to add or remove recipes to the furnace.
 */

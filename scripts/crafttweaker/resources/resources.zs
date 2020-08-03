@@ -1,7 +1,7 @@
 #priority 2349
 
 /*
-	SkyFactory 4 Resources Script
+	Würfelmania Resources Script
 
 	Script to unify resources
 */

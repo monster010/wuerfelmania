@@ -1,5 +1,5 @@
 /*
-	SevTech: Ages Actually Additions Script
+	Würfelmania Actually Additions Integration Script
 
 	This script handles custom integration control to a mod.
 
