@@ -1,0 +1,7 @@
+background = addStretchedTexture("top_left", "test:textures/gui/title/background/bg.png")
+background.setRelRender(1, 1)
+
+tips = addRandomText("top_left")
+tips.setAbsXOffset(5)
+tips.setAbsYOffset(5)
+tips.addTip("Use F7 to see the light levels on the ground and F9 to see the chunk borders.")
