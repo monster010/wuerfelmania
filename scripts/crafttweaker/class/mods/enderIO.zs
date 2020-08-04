@@ -6,8 +6,8 @@
 	This script is a zenClass to allow easy interation with Ender IO.
 */
 import crafttweaker.item.IItemStack;
-import crafttweaker.item.ILiquidStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
 
 import crafttweaker.enchantments.IEnchantmentDefinition;
 
@@ -28,22 +28,20 @@ zenClass enderIO {
 	/*
 		Remove a AlloySmelter Recipe
 	*/
-	function removeAlloySmelter(input as IItemStack) {
-		AlloySmelter.removeRecipe(input);
+	function removeAlloySmelter(output as IItemStack) {
+		AlloySmelter.removeRecipe(output);
 	}
 
 	/*
 		Add a AlloySmelter Recipe
 	*/
-	function addAlloySmelter(output as IItemStack, input as IItemStack) {
+	function addAlloySmelter(output as IItemStack, input as IIngredient[]) {
 		AlloySmelter.addRecipe(output, input);
 	}
-
-	function addAlloySmelter(output as IItemStack, input as IItemStack, energyCost as int) {
+	function addAlloySmelter(output as IItemStack, input as IIngredient[], energyCost as int) {
 		AlloySmelter.addRecipe(output, input, energyCost);
 	}
-
-	function addAlloySmelter(output as IItemStack, input as IItemStack, energyCost as int, xp as float) {
+	function addAlloySmelter(output as IItemStack, input as IIngredient[], energyCost as int, xp as float) {
 		AlloySmelter.addRecipe(output, input, energyCost, xp);
 	}
 
@@ -103,16 +101,16 @@ zenClass enderIO {
 		Add a SagMill Recipe
 	*/
 	function addSagMill(output as IItemStack[], chances as float[], input as IIngredient) {
-		SagMill.addRecipe(output, float, input);
+		SagMill.addRecipe(output, chances, input);
 	}
-	function addSagMill(output as IItemStack[], chances as float[], input as IIngredient, bonusType as String) {
-		SagMill.addRecipe(output, float, input, bonusType);
+	function addSagMill(output as IItemStack[], chances as float[], input as IIngredient, bonusType as string) {
+		SagMill.addRecipe(output, chances, input, bonusType);
 	}
-	function addSagMill(output as IItemStack[], chances as float[], input as IIngredient, bonusType as String, energyCost as int) {
-		SagMill.addRecipe(output, float, input, bonusType, energyCost);
+	function addSagMill(output as IItemStack[], chances as float[], input as IIngredient, bonusType as string, energyCost as int) {
+		SagMill.addRecipe(output, chances, input, bonusType, energyCost);
 	}
-	function addSagMill(output as IItemStack[], chances as float[], input as IIngredient, bonusType as String, energyCost as int, xp as float[]) {
-		SagMill.addRecipe(output, float, input, bonusType, energyCost, xp);
+	function addSagMill(output as IItemStack[], chances as float[], input as IIngredient, bonusType as string, energyCost as int, xp as float[]) {
+		SagMill.addRecipe(output, chances, input, bonusType, energyCost, xp);
 	}
 
 	// SliceNSplice
@@ -126,13 +124,13 @@ zenClass enderIO {
 	/*
 		Add a SliceNSplice Recipe
 	*/
-	function addSliceNSplice(output as IItemStack, input as IIngredient) {
+	function addSliceNSplice(output as IItemStack, input as IIngredient[]) {
 		SliceNSplice.addRecipe(output, input);
 	}
-	function addSliceNSplice(output as IItemStack, input as IIngredient, energyCost as int) {
+	function addSliceNSplice(output as IItemStack, input as IIngredient[], energyCost as int) {
 		SliceNSplice.addRecipe(output, input, energyCost);
 	}
-	function addSliceNSplice(output as IItemStack, input as IIngredient, energyCost as int, xp as float) {
+	function addSliceNSplice(output as IItemStack, input as IIngredient[], energyCost as int, xp as float) {
 		SliceNSplice.addRecipe(output, input, energyCost, xp);
 	}
 
@@ -147,10 +145,10 @@ zenClass enderIO {
 	/*
 		Add a SoulBinder Recipe
 	*/
-	function addSoulBinder(output as IItemStack, input as IIngredient, entities as String[], xp as int) {
+	function addSoulBinder(output as IItemStack, input as IIngredient, entities as string[], xp as int) {
 		SoulBinder.addRecipe(output, input, entities, xp);
 	}
-	function addSoulBinder(output as IItemStack, input as IIngredient, entities as String[], xp as int, energyCost as int) {
+	function addSoulBinder(output as IItemStack, input as IIngredient, entities as string[], xp as int, energyCost as int) {
 		SoulBinder.addRecipe(output, input, entities, xp, energyCost);
 	}
 
