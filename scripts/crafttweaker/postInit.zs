@@ -29,7 +29,9 @@ scripts.crafttweaker.initialInventory.init();
 ZenStager.buildAll();
 
 function initRecipes() {
+	scripts.crafttweaker.recipes.hide.init();
 	scripts.crafttweaker.recipes.removeAndHide.init();
+	scripts.crafttweaker.recipes.hideCategory.init();
 
 	// Mod Specific Recipes
 	scripts.crafttweaker.recipes.mods.actuallyAdditions.init();
