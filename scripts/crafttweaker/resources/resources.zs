@@ -28,7 +28,7 @@ static resourcesBase as ILiquidStack[string] = {
 	"invar": <liquid:invar>,
 	"iron": <liquid:iron>,
 	"lead": <liquid:lead>,
-	"lithium": <liquid:lithium>,
+	//"lithium": <liquid:lithium>,
 	"lumium": <liquid:lumium>,
 	"magnesium": <liquid:magnesium>,
 	"manyullyn": <liquid:manyullyn>,
