@@ -16,7 +16,34 @@ import mods.zenstages.Utils;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-
+	<tp:emerald_pickaxe>: [
+		[
+			[<ore:gemEmerald>, <ore:gemEmerald>, <ore:gemEmerald>],
+			[null, <ore:stickWood>, <ore:gemEmerald>],
+			[<ore:stickWood>, null, <ore:gemEmerald>]
+		]
+	],
+	<tp:emerald_spade>: [
+		[
+			[null, <ore:gemEmerald>, <ore:gemEmerald>],
+			[null, <ore:stickWood>, <ore:gemEmerald>],
+			[<ore:stickWood>, null, null]
+		]
+	],
+	<tp:emerald_sword>: [
+		[
+			[null, null, <ore:gemEmerald>],
+			[null, <ore:gemEmerald>, null],
+			[<ore:stickWood>, null, null]
+		]
+	],
+	<tp:emerald_axe>: [
+		[
+			[<ore:gemEmerald>, <ore:gemEmerald>, <ore:gemEmerald>],
+			[<ore:gemEmerald>, <ore:stickWood>, null],
+			[<ore:stickWood>, null, null]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -44,7 +71,10 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-
+	<tp:emerald_pickaxe>,
+	<tp:emerald_spade>,
+	<tp:emerald_sword>,
+	<tp:emerald_axe>,
 ];
 
 function init() {
